@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "lib": ["ES2024", "DOM", "DOM.Iterable"],
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "noEmit": true,
+        "paths": {
+            "@module/*": ["./src/module/*"],
+            "@scripts/*": ["./src/scripts/*"],
+            "@common/*": ["./node_modules/@dfreds/foundry-types/common/*"],
+            "@client/*": ["./node_modules/@dfreds/foundry-types/client/*"]
+        },
+        "types": ["node"],
+        "typeRoots": ["./node_modules/@types"]
+    },
+    "include": ["src/**/*", "src/**/*.svelte", "tests/**/*"],
+    "exclude": ["node_modules", "dist"]
+}

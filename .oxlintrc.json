@@ -1,0 +1,23 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "ignorePatterns": ["dist/**", "packs/**"],
+    "options": {
+        "typeAware": true,
+        "typeCheck": true
+    },
+    "plugins": ["typescript", "unicorn", "oxc", "vitest"],
+    "categories": {
+        "correctness": "error"
+    },
+    "rules": {
+        "no-shadow-restricted-names": [
+            "error",
+            {
+                "reportGlobalThis": false
+            }
+        ]
+    },
+    "env": {
+        "builtin": true
+    }
+}
