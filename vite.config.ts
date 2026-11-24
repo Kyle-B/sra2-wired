@@ -61,7 +61,7 @@ export default defineConfig(({ command, mode }) => {
             },
         },
         // root is src/, so point the plugin at the repo-root config (shared with svelte-check).
-        plugins: [],
+        plugins,
         // `npm run dev` runs this as a reverse proxy in front of Foundry: open
         // http://localhost:30001/game (NOT :30000) and Vite serves our system's source with
         // HMR while proxying everything else — Foundry routes, the socket, our static files —

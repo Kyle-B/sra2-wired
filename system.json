@@ -52,5 +52,77 @@
                 "ASSISTANT": "OWNER"
             }
         }
-    ]
+    ],
+    "documentTypes": {
+        "Actor": {
+            "character": {
+                "htmlFields": ["description", "gmDescription", "bio.background", "bio.notes"]
+            },
+            "vehicle": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "ice": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "server": {
+                "htmlFields": ["description", "gmDescription"]
+            }
+        },
+        "Item": {
+            "skill": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "specialization": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "metatype": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "quality": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "contact": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "awakened": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "adeptPower": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "equipment": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "armor": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "cyberware": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "bioware": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "cyberdeck": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "weapon": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "spell": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "emerged": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "complexForm": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "knowledge": {
+                "htmlFields": ["description", "gmDescription"]
+            },
+            "power": {
+                "htmlFields": ["description", "gmDescription"]
+            }
+        }
+    }
 }

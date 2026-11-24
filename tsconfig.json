@@ -12,7 +12,11 @@
         "sourceMap": true,
         "noEmit": true,
         "paths": {
-            "@module/*": ["./src/module/*"],
+            "@system": ["./src/module/system/index.ts"],
+            "@system/*": ["./src/module/system/*"],
+            "@models/*": ["./src/module/models/*"],
+            "@documents/*": ["./src/module/documents/*"],
+            "@migration/*": ["./src/module/migration/*"],
             "@scripts/*": ["./src/scripts/*"],
             "@common/*": ["./node_modules/@dfreds/foundry-types/common/*"],
             "@client/*": ["./node_modules/@dfreds/foundry-types/client/*"]

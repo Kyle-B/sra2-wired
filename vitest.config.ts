@@ -16,6 +16,8 @@ export default defineConfig({
     test: {
         environment: "node",
         include: ["tests/**/*.test.ts"],
+        // Stand-in for Foundry's data model classes, so tests can construct real models.
+        setupFiles: ["tests/setup/foundry-mocks.ts"],
         globals: false,
         // The only unit spec is the strippable example (removed by `npm run remove-example-files`
         // alongside ExampleApp). Stay green afterwards until you add your own specs.
