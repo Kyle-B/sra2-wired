@@ -1,5 +1,119 @@
 {
     "sra2-wired": {
         "title": "Shadowrun Anarchy 2.0"
+    },
+    "TYPES": {
+        "Actor": {
+            "character": "Character",
+            "vehicle": "Vehicle",
+            "ice": "ICE",
+            "server": "Server"
+        },
+        "Item": {
+            "skill": "Skill",
+            "specialization": "Specialization",
+            "knowledge": "Knowledge",
+            "metatype": "Metatype",
+            "quality": "Quality",
+            "contact": "Contact",
+            "awakened": "Awakened",
+            "adeptPower": "Adept Power",
+            "equipment": "Equipment",
+            "armor": "Armor",
+            "cyberware": "Cyberware",
+            "bioware": "Bioware",
+            "cyberdeck": "Cyberdeck",
+            "weapon": "Weapon",
+            "spell": "Spell",
+            "emerged": "Emerged",
+            "complexForm": "Complex Form",
+            "power": "Power"
+        }
+    },
+    "SRA2": {
+        "Sheet": {
+            "amp": "SRA2 Amp Sheet",
+            "editImage": "Change image",
+            "Tabs": {
+                "details": "Details",
+                "rating": "Rating",
+                "description": "Description"
+            }
+        },
+        "Amp": {
+            "general": "General",
+            "active": "Active",
+            "rating": "Rating",
+            "cost": "Cost",
+            "creation": {
+                "label": "Character Creation",
+                "optional": "Optional",
+                "isChoice": "Choice",
+                "choiceCount": "Number to Choose"
+            }
+        },
+        "Description": {
+            "description": "Description",
+            "gmDescription": "GM Notes",
+            "reference": "Reference"
+        },
+        "Rating": {
+            "source": "Source",
+            "count": "Count",
+            "value": "Rating",
+            "empty": "Nothing adds to this rating yet.",
+            "Keys": {
+                "baseQuality": "Base quality",
+                "cyberware": "Cyberware",
+                "bioware": "Bioware",
+                "adeptPower": "Adept power",
+                "spell": "Spell",
+                "complexForm": "Complex form",
+                "lightBoxes": "Light damage boxes",
+                "seriousBoxes": "Serious damage boxes",
+                "armorBonus": "Armor bonus",
+                "firewall": "Firewall",
+                "cyberdeckBiofeedback": "Biofeedback",
+                "cyberdeckBiofeedbackFilter": "Biofeedback filter",
+                "cyberdeckLockdown": "Lockdown",
+                "attackRating": "Attack rating",
+                "riggerConsoles": "Rigger console",
+                "vehicleControlWiring": "Vehicle control wiring",
+                "weaponFocus": "Weapon focus",
+                "damageBonus": "Damage bonus",
+                "weaponDamageBonus": "Weapon damage bonus",
+                "rangeImprovements": "Improved ranges",
+                "rrSpecialization": "RR (specialization)",
+                "rrSkill": "RR (skill)",
+                "rrAttribute": "RR (attribute)",
+                "initiativeEnhancement": "Initiative enhancement",
+                "narrativeEffectsPositive": "Narrative effects",
+                "narrativeEffectsNegative": "Narrative drawbacks",
+                "sustainedSpells": "Sustained spells",
+                "summonedSpirits": "Summoned spirits",
+                "astralPerception": "Astral perception",
+                "astralPerceptionProjection": "Astral perception and projection",
+                "sorcery": "Sorcery",
+                "conjuration": "Conjuration",
+                "adept": "Adept",
+                "matrixAccess": "Matrix access",
+                "complexFormWeaving": "Complex form weaving",
+                "spriteCompilation": "Sprite compilation",
+                "emergedBiofeedback": "Biofeedback",
+                "compiledSprites": "Compiled sprites",
+                "sustainedComplexForms": "Sustained complex forms",
+                "shamanicMask": "Shamanic mask",
+                "autopilotUpgrade": "Autopilot upgrade",
+                "speedUpgrade": "Speed upgrade",
+                "handlingUpgrade": "Handling upgrade",
+                "armorUpgrade": "Armor upgrade",
+                "flying": "Flying",
+                "fixed": "Fixed",
+                "autopilotUnlocked": "Unlocked autopilot",
+                "additionalDrones": "Additional drones",
+                "extraMounts": "Extra mounts",
+                "mountCosts": "Mounts"
+            }
+        }
     }
 }
